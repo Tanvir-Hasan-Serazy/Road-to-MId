@@ -1,12 +1,13 @@
 import Counter from "@/components/Counter";
+import Todo from "@/components/Todo";
 import ReduxProvider from "@/redux/provider/redux-provider";
 
 export default function Home() {
   return (
     <>
       <ReduxProvider>
-        <h1>Practice Mode on</h1>
-        <Counter />
+        {/* <Counter /> */}
+        <Todo />
       </ReduxProvider>
     </>
   );

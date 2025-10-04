@@ -6,13 +6,6 @@ export default function Counter() {
   const count = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
 
-  const handleOnIncrement = () => {
-    console.log("Increment");
-  };
-  const handleOnDecrement = () => {
-    console.log("Decrement");
-  };
-
   return (
     <div>
       <div className="mt-20 max-w-7xl w-full mx-auto border border-gray-300 rounded-2xl min-h-96 bg-gray-600">
